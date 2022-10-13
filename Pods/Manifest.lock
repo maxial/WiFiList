@@ -1,0 +1,20 @@
+PODS:
+  - RealReachability (1.4.1):
+    - RealReachability/Connection (= 1.4.1)
+    - RealReachability/Ping (= 1.4.1)
+  - RealReachability/Connection (1.4.1)
+  - RealReachability/Ping (1.4.1)
+
+DEPENDENCIES:
+  - RealReachability
+
+SPEC REPOS:
+  trunk:
+    - RealReachability
+
+SPEC CHECKSUMS:
+  RealReachability: 828e74e3a1e89ba8f54395344637689cf4065c36
+
+PODFILE CHECKSUM: b37756dd51bfe29a29ee8b651247cee8094726de
+
+COCOAPODS: 1.11.3

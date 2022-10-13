@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		42F543C928F7EA09002FCFFC /* WiFiResearchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F543C828F7EA09002FCFFC /* WiFiResearchApp.swift */; };
+		42F543CB28F7EA09002FCFFC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F543CA28F7EA09002FCFFC /* ContentView.swift */; };
+		42F543CD28F7EA0B002FCFFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42F543CC28F7EA0B002FCFFC /* Assets.xcassets */; };
+		42F543D028F7EA0B002FCFFC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42F543CF28F7EA0B002FCFFC /* Preview Assets.xcassets */; };
+		42FFE12B28F7EB40004500BB /* NetworkInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FFE12A28F7EB40004500BB /* NetworkInfo.swift */; };
+		42FFE13028F7EF6D004500BB /* WiFiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FFE12F28F7EF6D004500BB /* WiFiView.swift */; };
+		42FFE13228F7F282004500BB /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FFE13128F7F282004500BB /* AppState.swift */; };
+		42FFE13428F80E2D004500BB /* UIApplicationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FFE13328F80E2D004500BB /* UIApplicationExtension.swift */; };
+		42FFE13628F80E3E004500BB /* UIWindowExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FFE13528F80E3E004500BB /* UIWindowExtension.swift */; };
+		42FFE13928F80EB6004500BB /* WiFi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FFE13828F80EB6004500BB /* WiFi.swift */; };
+		D4C9227FD9072E84FADDCDD6 /* Pods_WiFiResearch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 679DF7B82E5B9E7F3BC07306 /* Pods_WiFiResearch.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		42F543C528F7EA09002FCFFC /* WiFiResearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WiFiResearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		42F543C828F7EA09002FCFFC /* WiFiResearchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WiFiResearchApp.swift; sourceTree = "<group>"; };
+		42F543CA28F7EA09002FCFFC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		42F543CC28F7EA0B002FCFFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		42F543CF28F7EA0B002FCFFC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		42FFE12A28F7EB40004500BB /* NetworkInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkInfo.swift; sourceTree = "<group>"; };
+		42FFE12C28F7ED55004500BB /* WiFiResearch.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WiFiResearch.entitlements; sourceTree = "<group>"; };
+		42FFE12F28F7EF6D004500BB /* WiFiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WiFiView.swift; sourceTree = "<group>"; };
+		42FFE13128F7F282004500BB /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		42FFE13328F80E2D004500BB /* UIApplicationExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIApplicationExtension.swift; sourceTree = "<group>"; };
+		42FFE13528F80E3E004500BB /* UIWindowExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIWindowExtension.swift; sourceTree = "<group>"; };
+		42FFE13828F80EB6004500BB /* WiFi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WiFi.swift; sourceTree = "<group>"; };
+		679DF7B82E5B9E7F3BC07306 /* Pods_WiFiResearch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WiFiResearch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		983011B582B9EED1FD4D3EE0 /* Pods-WiFiResearch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WiFiResearch.release.xcconfig"; path = "Target Support Files/Pods-WiFiResearch/Pods-WiFiResearch.release.xcconfig"; sourceTree = "<group>"; };
+		D23E3DDEC7216A263A86363B /* Pods-WiFiResearch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WiFiResearch.debug.xcconfig"; path = "Target Support Files/Pods-WiFiResearch/Pods-WiFiResearch.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		42F543C228F7EA09002FCFFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4C9227FD9072E84FADDCDD6 /* Pods_WiFiResearch.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		146775BF3556FE78C39CDCF0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				679DF7B82E5B9E7F3BC07306 /* Pods_WiFiResearch.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		42F543BC28F7EA09002FCFFC = {
+			isa = PBXGroup;
+			children = (
+				42F543C728F7EA09002FCFFC /* WiFiResearch */,
+				42F543C628F7EA09002FCFFC /* Products */,
+				9E02781D5FCA47B124320B5B /* Pods */,
+				146775BF3556FE78C39CDCF0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		42F543C628F7EA09002FCFFC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				42F543C528F7EA09002FCFFC /* WiFiResearch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		42F543C728F7EA09002FCFFC /* WiFiResearch */ = {
+			isa = PBXGroup;
+			children = (
+				42FFE12C28F7ED55004500BB /* WiFiResearch.entitlements */,
+				42F543C828F7EA09002FCFFC /* WiFiResearchApp.swift */,
+				42FFE13B28F80F8D004500BB /* UI */,
+				42FFE13A28F80F7A004500BB /* Business */,
+				42FFE13728F80E40004500BB /* Extensions */,
+				42F543CC28F7EA0B002FCFFC /* Assets.xcassets */,
+				42F543CE28F7EA0B002FCFFC /* Preview Content */,
+			);
+			path = WiFiResearch;
+			sourceTree = "<group>";
+		};
+		42F543CE28F7EA0B002FCFFC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				42F543CF28F7EA0B002FCFFC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		42FFE13728F80E40004500BB /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				42FFE13328F80E2D004500BB /* UIApplicationExtension.swift */,
+				42FFE13528F80E3E004500BB /* UIWindowExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		42FFE13A28F80F7A004500BB /* Business */ = {
+			isa = PBXGroup;
+			children = (
+				42FFE13128F7F282004500BB /* AppState.swift */,
+				42FFE12A28F7EB40004500BB /* NetworkInfo.swift */,
+				42FFE13828F80EB6004500BB /* WiFi.swift */,
+			);
+			path = Business;
+			sourceTree = "<group>";
+		};
+		42FFE13B28F80F8D004500BB /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				42F543CA28F7EA09002FCFFC /* ContentView.swift */,
+				42FFE12F28F7EF6D004500BB /* WiFiView.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		9E02781D5FCA47B124320B5B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D23E3DDEC7216A263A86363B /* Pods-WiFiResearch.debug.xcconfig */,
+				983011B582B9EED1FD4D3EE0 /* Pods-WiFiResearch.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		42F543C428F7EA09002FCFFC /* WiFiResearch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42F543D328F7EA0B002FCFFC /* Build configuration list for PBXNativeTarget "WiFiResearch" */;
+			buildPhases = (
+				4F2A3BF7423A6C932638581A /* [CP] Check Pods Manifest.lock */,
+				42F543C128F7EA09002FCFFC /* Sources */,
+				42F543C228F7EA09002FCFFC /* Frameworks */,
+				42F543C328F7EA09002FCFFC /* Resources */,
+				9E5FFAF4BBC2ACA1A4C5256D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WiFiResearch;
+			productName = WiFiResearch;
+			productReference = 42F543C528F7EA09002FCFFC /* WiFiResearch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		42F543BD28F7EA09002FCFFC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					42F543C428F7EA09002FCFFC = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 42F543C028F7EA09002FCFFC /* Build configuration list for PBXProject "WiFiResearch" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 42F543BC28F7EA09002FCFFC;
+			productRefGroup = 42F543C628F7EA09002FCFFC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42F543C428F7EA09002FCFFC /* WiFiResearch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		42F543C328F7EA09002FCFFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42F543D028F7EA0B002FCFFC /* Preview Assets.xcassets in Resources */,
+				42F543CD28F7EA0B002FCFFC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4F2A3BF7423A6C932638581A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WiFiResearch-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E5FFAF4BBC2ACA1A4C5256D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WiFiResearch/Pods-WiFiResearch-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WiFiResearch/Pods-WiFiResearch-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WiFiResearch/Pods-WiFiResearch-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		42F543C128F7EA09002FCFFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42FFE13428F80E2D004500BB /* UIApplicationExtension.swift in Sources */,
+				42F543CB28F7EA09002FCFFC /* ContentView.swift in Sources */,
+				42FFE12B28F7EB40004500BB /* NetworkInfo.swift in Sources */,
+				42FFE13928F80EB6004500BB /* WiFi.swift in Sources */,
+				42FFE13628F80E3E004500BB /* UIWindowExtension.swift in Sources */,
+				42FFE13228F7F282004500BB /* AppState.swift in Sources */,
+				42F543C928F7EA09002FCFFC /* WiFiResearchApp.swift in Sources */,
+				42FFE13028F7EF6D004500BB /* WiFiView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		42F543D128F7EA0B002FCFFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		42F543D228F7EA0B002FCFFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		42F543D428F7EA0B002FCFFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D23E3DDEC7216A263A86363B /* Pods-WiFiResearch.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = WiFiResearch/WiFiResearch.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WiFiResearch/Preview Content\"";
+				DEVELOPMENT_TEAM = 8Q4KTDMYNZ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "To get list of Wi-Fi  networks";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.maxial.WiFiResearch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		42F543D528F7EA0B002FCFFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 983011B582B9EED1FD4D3EE0 /* Pods-WiFiResearch.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = WiFiResearch/WiFiResearch.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WiFiResearch/Preview Content\"";
+				DEVELOPMENT_TEAM = 8Q4KTDMYNZ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "To get list of Wi-Fi  networks";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.maxial.WiFiResearch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		42F543C028F7EA09002FCFFC /* Build configuration list for PBXProject "WiFiResearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42F543D128F7EA0B002FCFFC /* Debug */,
+				42F543D228F7EA0B002FCFFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42F543D328F7EA0B002FCFFC /* Build configuration list for PBXNativeTarget "WiFiResearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42F543D428F7EA0B002FCFFC /* Debug */,
+				42F543D528F7EA0B002FCFFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 42F543BD28F7EA09002FCFFC /* Project object */;
+}
